@@ -1,0 +1,64 @@
+.listado-perfil {
+    margin: 0;
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+   background-color: #252629;
+}
+.listado-item{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.listado-img{
+    height: inherit;
+}
+.contenedor-img {
+    margin: 0;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 19px;
+}
+.listado-letra{
+    margin-left: 10px;
+}
+.contenedor-Perfil{
+
+        padding: 15px;
+        border: 2px solid #E5EAF4;
+        align-items: center;
+        /* width: 40%; */
+        /* margin: 10px auto; */
+        border-radius: 25px;
+        margin-bottom: 10px;
+}
+.contenedor-Perfil:hover {
+    border: 2px solid #F92A42;
+}
+.formulario-perfil{
+    background-color: #393B41;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 15px;
+}
+.formulario-boton{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.formulario-letras {
+    color: white;
+    font-weight: bold;
+}
+.listado-numero {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F92A42;
+}
+.numero-likes{
+    font-size: 15 px;
+    font-weight: bold;
+    color: #F92A42;
+}

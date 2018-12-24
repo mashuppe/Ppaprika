@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+
+
+    <div class="contenedor">
+
+        <ul class="nav nav-tabs list-tabs">
+            <li class="active list-item"><a class="list-link" data-toggle="tab" href="#login">Login</a></li>
+            <li class="list-item"><a class="list-link" data-toggle="tab" href="#registro">Registro</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="login" class="tab-pane fade in active">
+                <div class="formulario">
+
+                    <form id="login-form">
+                        <div class="modal-body">
+
+                            <span class="text-login">Introduce usuario y contraseña </span>
+
+                            <input id="login_username" class="form-control" type="text" placeholder="Usuario" required>
+                            <input id="login_password" class="form-control" type="password" placeholder="Password"
+                                required>
+
+                        </div>
+                        <div class="form-footer">
+                            <div>
+                                <button type="submit" class="btn btn-outline">Login</button>
+                            </div>
+
+                            <a href="#" class="form-link">¿Has perdido la contraseña?</a>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div id="registro" class="tab-pane fade">
+                <div class="formulario">
+
+                    <form id="registro-form">
+                        <div class="modal-body">
+
+                            <span class="text-login">Introduce tus datos </span>
+                            <input id="registro_nombre" class="form-control" type="text" placeholder="Nombre" required>
+                            <input id="registro_email" class="form-control" type="text" placeholder="Email" required>
+                            <input id="registro_username" class="form-control" type="text" placeholder="Usuario"
+                                required>
+                            <input id="registro_password" class="form-control" type="password" placeholder="Password"
+                                required>
+                        </div>
+                        <div class="form-footer">
+                            <div>
+                                <button type="submit" class="btn btn-outline">Registrar</button>
+                            </div>
+
+                            <a href="#" class="form-link">¿Ya tienes cuenta?</a>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

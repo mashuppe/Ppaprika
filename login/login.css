@@ -1,0 +1,49 @@
+.contenedor {
+    border: 2px solid;
+    border-radius: 26px;
+    background-color: #393B41;
+}
+.list-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.list-item {
+    text-align: center;
+}
+.list-link{
+    color:white !important;
+}
+.formulario {
+    width: 50%;
+    margin: auto;
+    background-color: #393B41;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 26px;
+}
+.form-footer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+.form-control{
+    margin:10px 0px;
+}
+.text-login {
+    color: white;
+    font-weight: bold;
+}
+.form-link{
+   color: #F92A42;
+   font-weight: bold;
+   margin-left: 10px;
+}

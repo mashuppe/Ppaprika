@@ -1,0 +1,19 @@
+.contenedor{
+  background-color: #393B41;
+  border: 2px solid white;
+  border-radius: 26px;
+}
+
+.formulario{
+  width: 80%;
+  color: white;
+  margin: auto;
+  padding-bottom: 0.5em;
+}
+.formulario h3{
+  padding-top: 1em;
+}
+#guardar_proyecto{
+  padding-top: 1em;
+  width: 100%;
+}
